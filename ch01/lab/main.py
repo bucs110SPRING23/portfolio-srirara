@@ -17,6 +17,6 @@ print("Cost per class:", cost_per_class, type(cost_per_class))
 #Part B
 print("\n")
 print("Part B:")
-data_list = [3, "3", 3.0, "three", 3.01]
+data_list = [3, "number 3", 3.0, "three", 3.01]
 choice = random.choice(data_list)
 print("The system chose", choice)
