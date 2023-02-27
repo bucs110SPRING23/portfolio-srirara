@@ -11,8 +11,10 @@ while correct == False:
     if (guess == answer):
         print("You got it!")
         print("It took you", numGuesses, "guesses to get it right. The correct answer is:", answer)
-        break
+        correct = True
     elif(guess < answer):
           print("Too low")
     else:
         print("Too high")
+
+#my guess is that the max number of guesses using a binary search would be 10 because log base 2 of 1000 is 9.9
