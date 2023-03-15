@@ -14,8 +14,12 @@ def square(x):
     return exponent(x,2)
 
 def main():
-    print(multiplier(4,5))
-    print(exponent(2,4))
-    print(square(7))
+    x = int(input('Enter a number: '))
+    y = int(input('Enter another number: '))
+    print(f'{x} * {y} is {multiplier(x,y)}')
+    print(f'{x} ^ {y} is {exponent(x,y)}')
+    print(f'{x} ^ 2 is {square(x)}')
+    print(f'{y} ^ 2 is {square(y)}')
+
 
 main()
