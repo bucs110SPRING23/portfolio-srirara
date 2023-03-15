@@ -20,7 +20,7 @@ def exponent(x,y): #x^y
 
 def square(x):
     ''' squares a number
-        args: x (int), y(int)
+        args: x (int)
         returns: (int)
     '''
     return exponent(x,2)
