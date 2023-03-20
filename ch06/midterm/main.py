@@ -26,9 +26,8 @@ def fib_draw(fib_sequence):
     angle = 0
 
     for term in fib_sequence:
-        length = np.log2(float(term)) ** 1.2
+        length = np.log2(float(term)) 
         index = fib_sequence.index(term)
-
         pencil.color(colors[index % 4])
 
         if index % 4 == 0:
