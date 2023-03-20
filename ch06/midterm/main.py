@@ -1,6 +1,5 @@
 import turtle
 import numpy as np
-import random 
 
 def fibonacci(terms=150):
     ''' returns a fibonacci sequence for the number of terms specified by the user, starting with (1, 1, ...)
