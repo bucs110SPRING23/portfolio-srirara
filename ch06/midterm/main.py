@@ -14,7 +14,7 @@ def fibonacci(terms=150):
     return fib_sequence
 
 def fib_draw(fib_sequence):
-    ''' draws a fibonacci-esque pattern using Turtle and a given fibonacci sequence. uses log base 2 of each term to the 1.2 power to modulate the growth of the sequence
+    ''' draws a fibonacci-esque pattern using Turtle and a given fibonacci sequence. uses log base 2 of each term to modulate the growth of the sequence
         args: fib_sequence (list)
         return: None
     '''
